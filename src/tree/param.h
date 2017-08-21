@@ -259,7 +259,7 @@ XGBOOST_DEVICE inline T CalcGain(const TrainingParams &p, T sum_grad, T sum_hess
     }
   }
 }
-// calculate cost of loss function with four statistics
+// calculate cost of loss function with for statistics
 template <typename TrainingParams, typename T>
 XGBOOST_DEVICE inline T CalcGain(const TrainingParams &p, T sum_grad, T sum_hess,
                              T test_grad, T test_hess) {
